@@ -13,3 +13,8 @@ yarn typeorm migration:create -n CreateSettings
 yarn add uuid
 yarn add @types/uuid -D
 yarn typeorm migration:run
+
+<<< Aula 03 >>>
+yarn typeorm migration:create -n CreateUsers
+yarn typeorm migration:run
+yarn typeorm migration:create -n CreateMessages
