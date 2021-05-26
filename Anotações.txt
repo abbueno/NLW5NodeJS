@@ -18,3 +18,10 @@ yarn typeorm migration:run
 yarn typeorm migration:create -n CreateUsers
 yarn typeorm migration:run
 yarn typeorm migration:create -n CreateMessages
+
+<<< Aula 04 >>>
+yarn add socket.io
+yarn add @types/socket.io -D
+yarn add ejs
+yarn add socket.io-client
+yarn typeorm migration:create -n CreateConnections
